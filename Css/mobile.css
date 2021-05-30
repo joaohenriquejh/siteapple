@@ -46,6 +46,13 @@
     #produtos .container{
         grid-template-columns: repeat(2, 1fr);
     }
+    #modelos img{
+        margin: 0 auto;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        max-width: 50%;
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 360px){
@@ -67,6 +74,7 @@
 
     #modelos img{
         margin: 0 auto;
+        margin-right: 20px;
         margin-bottom: 20px;
         max-width: 50%;
         display: block;
